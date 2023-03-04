@@ -1,0 +1,74 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.practica01;
+
+/**
+ *
+ * @author Justin David Damito Sanchez
+ */
+
+import java.util.Scanner;
+
+public class extructurasDeSeleccion {
+    public static void main(String[] args) {
+        //crear una instancia de la clase scanner
+        Scanner sc = new Scanner(System.in); 
+        
+        int edad; //variable para almacenar numeros 
+        String texto; //variable para almacenar texto 
+        
+        System.out.println("Ingrese su edad: ");//mustra info en pantalla 
+        edad = sc.nextInt();//recoge la informacion del teclado 
+                
+        System.out.println("Ingrese su nombre: ");
+        texto = sc.next();
+        
+        //estructura if 
+        if (edad >= 18){ // si la edad es mayor o igual a 18
+            System.out.println("La persona es mayor de edad");}
+        else {System.out.println("La persona es menor de edad");}
+        
+        System.out.println("su nombre es: " + texto);
+        
+        if (edad >= 18){ // si la edad es mayor o igual a 18
+            System.out.println("La persona es mayor de edad");}
+        else {System.out.println("La persona es menor de edad");}
+        
+        
+        //estructura if else if(if anidado)  
+        
+        if (edad >= 65){ // si la edad es mayor o igual a 65
+            System.out.println("La persona es un adulto mayor");}
+        else if (edad >= 18){ // si la edad es mayor a 65
+            System.out.println("La persona es mayor de edad");}
+        else if (edad >= 18 && edad >= 0)
+        {System.out.println("La persona es menor de edad");}
+        else {System.out.println("La edad no es valida");}
+        
+        //switch
+        //menu (1. cantones, 2. spaguetti, 3. sopa de mariscos, )
+        
+        int option;
+        System.out.println("\n\n\nMENU-------------------------\n 1. Cantones\n 2. Spaguetti\n 3. Sopa de mariscos");
+        
+        System.out.println("Ingrese el numero de la comida: ");
+        option = sc.nextInt();
+        
+        switch (option){
+            case 1:
+                System.out.println("Su orden es cantones");
+                break;
+            case 2:
+                System.out.println("Su orden es spaguetti");
+                break;
+            case 3:
+                System.out.println("Su orden es sopa de mariscos");
+            default:
+                System.out.println("undefined");
+                }
+       
+    }
+    
+}
