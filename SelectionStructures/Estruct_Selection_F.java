@@ -38,10 +38,8 @@ public class Estruct_Selection_F {
                 break;
             case 7:
                 System.out.println("el dia " + dia +" es el Domingo");//salida de datos
-                break;
             default:
                 System.out.println("invalido");//salida de datos
-                break;
         }
     }
 }
