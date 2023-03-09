@@ -22,8 +22,8 @@ public class Estruct_Selection_D{
        }
        else if(nota >= 65 && nota < 85){//nota es mayor o igual a 65 y nota es menor a 85
            System.out.println("la nota del alumno es de una B");//salida de datos 
-        
-       else if(nota < 65){//nota es menor a 65
+       }
+       else if(nota < 65 && nota >=0){//nota es menor a 65
            System.out.println("la nota del alumno es de una C");//salida de datos 
        }
        else {System.out .println("numero invalido");}
