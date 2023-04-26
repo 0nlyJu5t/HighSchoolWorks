@@ -1,0 +1,7 @@
+En la programación en computadora, la programación basada en flujo (PBF) es un paradigma de programación que define aplicaciones 
+como redes de procesos de "caja negra", los cuales intercambian datos a través de conexiones predefinidas por pasos de mensajes, 
+donde las conexiones están especificadas externamente a los procesos. Estos procesos de caja negra pueden ser reconectados un 
+sinnúmero de veces para formar diferentes aplicaciones sin tener que ser cambiarlos internamente. PBF, por lo tanto, 
+esta naturalmente orientado a componentes.
+PBF es una forma particular de programación de flujo de datos basados en buffers acotados, paquetes de información con tiempos 
+de vida definidos, puertos nombrados y definición separada de conexiones.
