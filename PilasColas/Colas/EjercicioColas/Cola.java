@@ -34,7 +34,7 @@ public class Cola {
             fin=nuevoNodo;
         }
     }
-    public String Extraer () { //Extracción de la cola 
+    public String Extraer () {
         if (!ColaVacia ()) {
             String dato=inicio.info;
             if (inicio==fin) {
@@ -50,7 +50,7 @@ public class Cola {
     }
 public void MostrarCola () {
     Nodo buscar=inicio;
-    String ColaInvertida=" "; //invertimos una cadena de texto 
+    String ColaInvertida=" ";
     while (buscar!=null) {
     
         Cola+=buscar.info +" ";
